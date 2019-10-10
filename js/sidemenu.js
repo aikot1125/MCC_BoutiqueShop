@@ -10,3 +10,14 @@ let closeSideMenu = document.querySelector('.btn-close');
 closeSideMenu.addEventListener('click', function() {
     document.getElementById('side-menu').style.width = '0';
 });
+
+
+//i want to be able to click on the hamburger menu to open side bar
+//I want to be able to click on hamburger again to close side bar
+
+
+// if($("button").text() == "☰"){
+//     $("button").text("✖");
+//   }else{        
+//     $("button").text("☰");      
+//   }
