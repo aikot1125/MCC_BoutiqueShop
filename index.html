@@ -52,7 +52,6 @@
         </ul>
     </nav>
     <div id="side-menu" class="side-nav">
-        <a href="#" class="btn-close">&times;</a>
         <a href="#">Shop</a>
         <a href="#">Blog</a>
         <a href="#">About Us</a>
@@ -63,6 +62,20 @@
 
     <!-- header starts here -->
     <div class="hero-wrap js-fullheight" style="background-image: url('images/header_sergei-gavrilov_unsplash.jpg');">
+        <!-- email newsletter modal starts here -->
+        <div class="email-modal">
+            <a href="#" class="email-modal-closebtn">&times;</a>
+            <div class="email-modal-text">
+                <h3>Your first order ships free!</h3>
+                <p>Subscribe to our weekly newsletter and enjoy free shipping and returns on your first order.</p>
+                <form action="" method="">
+                    <span class="email-label"><label for="e-mail">Your E-mail:</label></span>
+                    <input class="email-input" id="e-mail" name="e-mail" type="e-mail">
+                    <div class="subscribe-button-block"><button class="subscribe-button">Subscribe</button></div>
+                </form>
+            </div>
+        </div>
+        <!-- email newsletter modal ends here -->
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight justify-content-center">
@@ -720,6 +733,7 @@
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
     <script src="js/sidemenu.js"></script>
+    <script src="js/emailmodal.js"></script>
 </body>
 
 </html>
