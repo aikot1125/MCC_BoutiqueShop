@@ -93,6 +93,31 @@
     </div>
     <!-- header ends here -->
 
+    <!-- chat popup starts here -->
+    <button class="open-button"><i class="far fa-comments"></i></button>
+
+    <div class="chat-popup" id="chatForm">
+        <form action="" class="form-container">
+            <h3>Any questions?</h3>
+            <p>We'll get back to you within 1 business day!</p>
+            <div class="form-text">
+                <div>
+                    <label for="name">Your Name: </label>
+                    <input class="form-input" id="name" name="text" type="name" required>
+                </div>
+                <div><label for="email">Your E-mail: </label>
+                    <input class="form-input" id="email" name="email" type="email" required>
+                </div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message here" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="close-button" class="btn cancel close-button">Close</button>
+        </form>
+    </div>
+    <!-- chat popup ends here -->
+
     <div class="goto-here"></div>
 
     <section class="ftco-section ftco-product">
@@ -734,6 +759,7 @@
     <script src="js/main.js"></script>
     <script src="js/sidemenu.js"></script>
     <script src="js/emailmodal.js"></script>
+    <script src="js/chatpopup.js"></script>
 </body>
 
 </html>
