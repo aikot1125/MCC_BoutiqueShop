@@ -892,11 +892,16 @@ pre {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%; }
-  .col-md-4 {
+  .col-md-04 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.33333%;
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%; }
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
+    .col-md-4 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33333%;
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%; }
   .col-md-5 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.66667%;
@@ -8384,7 +8389,7 @@ textarea.form-control {
 
 .ftco-services .services {
   display: block;
-  width: 100%;
+  width: 90%;
   margin-bottom: 40px;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
