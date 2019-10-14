@@ -10,4 +10,4 @@ closeModalBtn.addEventListener("click", closeModal);
 
 setTimeout(() => {
     emailModal.style.display = "block";
-}, 3000);
+}, 2000);
