@@ -202,7 +202,7 @@
         }
         
         a:hover {
-            color: #34c0e7;
+            color: var(--main-brand-content-color);
             text-decoration: underline;
         }
         
@@ -11436,7 +11436,7 @@
             height: 10px;
             margin: 5px;
             border-radius: 50%;
-            background: rgba(0, 0, 0, 0.1);
+            background: var(--main-brand-light-color);
         }
         
         .testimony-wrap {
@@ -11685,6 +11685,7 @@
             width: 40px;
             font-size: 18px;
             padding-top: 2px;
+            color: var(--main-brand-color);
         }
         
         .block-17 {
