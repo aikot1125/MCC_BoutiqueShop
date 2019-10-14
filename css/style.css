@@ -4678,6 +4678,9 @@
             font-size: 30px;
             font-weight: bold;
             color: var(--gray-dark);
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            cursor: pointer;
         }
         
         .email-label {
