@@ -561,6 +561,10 @@
             font-size: 90%;
             color: #6c757d;
         }
+
+        .title-in-banner {
+            color: #FFFFFF !important;
+        }
         
         code,
         kbd,
