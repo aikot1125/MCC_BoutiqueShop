@@ -57,6 +57,10 @@
             -ms-overflow-style: scrollbar;
             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         }
+
+        p {
+            text-align: left;
+        }
         
         @-ms-viewport {
             width: device-width;
@@ -202,7 +206,7 @@
         }
         
         a:hover {
-            color: var(--main-brand-content-color);
+            color: var(--main-brand-sub-color) !important;
             text-decoration: underline;
         }
         
@@ -8407,6 +8411,7 @@
         .ml-auto,
         .mx-auto {
             margin-left: auto !important;
+            color: var(--main-brand-color) !important;
         }
         
         @media (min-width: 576px) {
@@ -10557,7 +10562,7 @@
         
         .product .text p.price {
             margin-bottom: 0;
-            color: #000000;
+            color: var(--main-brand-content-color);
             font-weight: 400;
         }
         
@@ -10573,6 +10578,7 @@
         .product .text .pricing,
         .product .text .rating {
             width: 50%;
+            color: var(--main-brand-content-color) !important;
         }
         
         .product .text .bottom-area {
@@ -10588,6 +10594,7 @@
             color: #000000;
             text-transform: uppercase;
             font-weight: 300;
+            color: var(--main-brand-color);
         }
         
         .product .text .bottom-area a.add-to-cart i {
@@ -10832,7 +10839,7 @@
         
         .table tbody tr td.total,
         .table tbody tr td.price {
-            color: #000000;
+            color: var(--main-brand-content-color);
         }
         
         .cart-wrap .btn-primary {
@@ -12319,4 +12326,8 @@
 
         .style-quiz:hover {
             color: var(--main-brand-sub-color);
+        }
+
+        .product-link {
+            color: var(--main-brand-color) !important;
         }
