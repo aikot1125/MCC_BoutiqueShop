@@ -8244,7 +8244,7 @@
         
         .mb-5,
         .my-5 {
-            margin-bottom: 3rem !important;
+            margin-bottom: 3rem;
         }
         
         .ml-5,
@@ -11203,6 +11203,10 @@
         
         .ftco-footer-social li a:hover {
             color: #000000;
+        }
+
+        .footer-margin {
+            margin-bottom: 0;
         }
         
         #map {
