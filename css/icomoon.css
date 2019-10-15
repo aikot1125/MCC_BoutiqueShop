@@ -497,9 +497,11 @@
 }
 .icon-twitter:before {
   content: "\f099";
+  color: #4D0011;
 }
 .icon-facebook:before {
   content: "\f09a";
+  color: #4D0011;
 }
 .icon-facebook-f:before {
   content: "\f09a";
@@ -1157,6 +1159,7 @@
 }
 .icon-instagram:before {
   content: "\f16d";
+  color: #4D0011;
 }
 .icon-flickr:before {
   content: "\f16e";
