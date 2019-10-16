@@ -11583,7 +11583,7 @@
         }
         
         .blog-section {
-            padding-top: 50px;
+            padding-top: 120px;
         }
         
         .blog-section-title {
@@ -11636,6 +11636,12 @@
         
         .blog-date {
             color: #5E5D5D;
+        }
+
+        @media (max-width: 991px) {
+            .blog-section {
+                padding-top: 80px;
+            }
         }
         
         @media (max-width: 906px) {
