@@ -538,6 +538,11 @@
             max-width: 100%;
             height: auto;
         }
+
+        .img-non {
+            max-width: 100%;
+            height: 450px;
+        }
         
         .img-thumbnail {
             padding: 0.25rem;
