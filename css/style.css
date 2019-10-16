@@ -4703,6 +4703,9 @@
             font-size: 30px;
             font-weight: bold;
             color: var(--gray-dark);
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            cursor: pointer;
         }
         
         .email-label {
@@ -8241,7 +8244,7 @@
         
         .mb-5,
         .my-5 {
-            margin-bottom: 3rem !important;
+            margin-bottom: 3rem;
         }
         
         .ml-5,
@@ -11136,7 +11139,7 @@
         
         .ftco-footer {
             font-size: 16px;
-            padding: 7em 0;
+            padding: 4em 0;
             color: #000000;
         }
         
@@ -11200,6 +11203,10 @@
         
         .ftco-footer-social li a:hover {
             color: #000000;
+        }
+
+        .footer-margin {
+            margin-bottom: 0;
         }
         
         #map {
@@ -11576,7 +11583,7 @@
         }
         
         .blog-section {
-            padding-top: 50px;
+            padding-top: 120px;
         }
         
         .blog-section-title {
@@ -11629,6 +11636,12 @@
         
         .blog-date {
             color: #5E5D5D;
+        }
+
+        @media (max-width: 991px) {
+            .blog-section {
+                padding-top: 80px;
+            }
         }
         
         @media (max-width: 906px) {
